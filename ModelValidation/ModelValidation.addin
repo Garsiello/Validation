@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ModelValidation</Text>
+    <Description>Some description for ModelValidation</Description>
+    <Assembly>ModelValidation.dll</Assembly>
+    <FullClassName>ModelValidation.Command</FullClassName>
+    <ClientId>94770591-dfb6-47d2-8f2e-42d856892e64</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ModelValidation</Name>
+    <Assembly>ModelValidation.dll</Assembly>
+    <FullClassName>ModelValidation.App</FullClassName>
+    <ClientId>1d4aff88-19bb-4bde-acf6-15f3dc5bfb47</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
